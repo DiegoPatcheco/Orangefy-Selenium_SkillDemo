@@ -1,0 +1,16 @@
+01:04:18.613 INFO  AUTOMATION - Suite starting: Default Suite
+01:04:18.623 DEBUG AUTOMATION - Deleting previous evidence
+01:04:18.707 DEBUG AUTOMATION - Setting Chrome as default driver
+01:04:18.709 DEBUG AUTOMATION - Inicializando el driver: CHROME
+01:04:19.842 DEBUG AUTOMATION - Maximizando la pantalla
+01:04:19.867 DEBUG AUTOMATION - Borrando las cookies
+01:04:19.873 DEBUG AUTOMATION - Asignando driver al webdriver provider
+01:04:19.955 DEBUG AUTOMATION - Setting login cookie
+01:04:25.358 INFO  AUTOMATION - Test start: verifyContactPageTest
+01:05:35.631 DEBUG AUTOMATION - Allure: Taking screenshot
+01:05:35.684 INFO  AUTOMATION - Test fail: verifyContactPageTest
+01:05:35.684 DEBUG AUTOMATION - Taking screenshot
+01:05:35.689 DEBUG AUTOMATION - Allure: Taking screenshot
+01:05:35.692 INFO  AUTOMATION - Test fail: verifyContactPageTest
+01:05:35.692 DEBUG AUTOMATION - Taking screenshot
+01:05:35.698 INFO  AUTOMATION - Suite finishing: Default Suite

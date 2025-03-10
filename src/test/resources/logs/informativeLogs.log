@@ -1,0 +1,5 @@
+01:04:18.613 INFO  AUTOMATION - Suite starting: Default Suite
+01:04:25.358 INFO  AUTOMATION - Test start: verifyContactPageTest
+01:05:35.684 INFO  AUTOMATION - Test fail: verifyContactPageTest
+01:05:35.692 INFO  AUTOMATION - Test fail: verifyContactPageTest
+01:05:35.698 INFO  AUTOMATION - Suite finishing: Default Suite
