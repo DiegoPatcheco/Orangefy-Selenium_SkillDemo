@@ -36,7 +36,7 @@ jobs:
       - name: Run Tests
         run: |
           chmod +x mvnw
-          ./runSuite.sh
+          ./mvnw clean test -Dgroups="regression" -Dbrowser="edge"
           echo "Test execution finished with exit code $?"
 
       - name: Generate Allure Report
