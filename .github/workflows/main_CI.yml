@@ -35,6 +35,7 @@ jobs:
 
       - name: Run Tests
         run: |
+          chmod +x mvnw
           ./mvnw clean test -Dgroups="regression" -Dbrowser="chrome"
           echo "Test execution finished with exit code $?"
 
