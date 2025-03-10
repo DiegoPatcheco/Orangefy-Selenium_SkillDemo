@@ -1,5 +1,58 @@
-01:04:18.613 INFO  AUTOMATION - Suite starting: Default Suite
-01:04:25.358 INFO  AUTOMATION - Test start: verifyContactPageTest
-01:05:35.684 INFO  AUTOMATION - Test fail: verifyContactPageTest
-01:05:35.692 INFO  AUTOMATION - Test fail: verifyContactPageTest
-01:05:35.698 INFO  AUTOMATION - Suite finishing: Default Suite
+17:33:56.135 INFO  AUTOMATION - Suite starting: Surefire suite
+17:34:02.175 INFO  AUTOMATION - Enter the user email
+17:34:02.224 INFO  AUTOMATION - Enter the user password
+17:34:02.262 INFO  AUTOMATION - Click on login button
+17:34:05.385 INFO  AUTOMATION - Test start: submitContactMessageTest
+17:34:05.738 INFO  AUTOMATION - Test success: submitContactMessageTest
+17:34:09.878 INFO  AUTOMATION - Enter the user email
+17:34:09.917 INFO  AUTOMATION - Enter the user password
+17:34:09.949 INFO  AUTOMATION - Click on login button
+17:34:12.386 INFO  AUTOMATION - Test start: verifyContactPageTest
+17:34:12.465 INFO  AUTOMATION - Test success: verifyContactPageTest
+17:34:17.306 INFO  AUTOMATION - Test start: loginValidCredentialsTest
+17:34:17.309 INFO  AUTOMATION - Enter the user email
+17:34:17.351 INFO  AUTOMATION - Enter the user password
+17:34:17.386 INFO  AUTOMATION - Click on login button
+17:34:18.604 INFO  AUTOMATION - Test success: loginValidCredentialsTest
+17:34:23.397 INFO  AUTOMATION - Test start: verifyLoginElementsTest
+17:34:23.423 INFO  AUTOMATION - Test success: verifyLoginElementsTest
+17:34:28.283 INFO  AUTOMATION - Enter the user email
+17:34:28.324 INFO  AUTOMATION - Enter the user password
+17:34:28.357 INFO  AUTOMATION - Click on login button
+17:34:33.219 INFO  AUTOMATION - Test start: submitItemReviewTest
+17:34:34.915 INFO  AUTOMATION - Test fail: submitItemReviewTest
+17:34:39.955 INFO  AUTOMATION - Enter the user email
+17:34:39.996 INFO  AUTOMATION - Enter the user password
+17:34:40.030 INFO  AUTOMATION - Click on login button
+17:34:44.887 INFO  AUTOMATION - Test start: verifyItemDetailsPageTest
+17:34:45.045 INFO  AUTOMATION - Test success: verifyItemDetailsPageTest
+17:34:50.200 INFO  AUTOMATION - Enter the user email
+17:34:50.243 INFO  AUTOMATION - Enter the user password
+17:34:50.277 INFO  AUTOMATION - Click on login button
+17:34:51.338 INFO  AUTOMATION - Test start: addingProductsCartTest
+17:34:56.721 INFO  AUTOMATION - Test success: addingProductsCartTest
+17:35:01.361 INFO  AUTOMATION - Enter the user email
+17:35:01.400 INFO  AUTOMATION - Enter the user password
+17:35:01.433 INFO  AUTOMATION - Click on login button
+17:35:02.887 INFO  AUTOMATION - Test start: verifyEmptyCartTest
+17:35:03.717 INFO  AUTOMATION - Test fail: verifyEmptyCartTest
+17:35:08.325 INFO  AUTOMATION - Enter the user email
+17:35:08.363 INFO  AUTOMATION - Enter the user password
+17:35:08.394 INFO  AUTOMATION - Click on login button
+17:35:10.382 INFO  AUTOMATION - Test start: verifyProductsPageTest
+17:35:11.851 INFO  AUTOMATION - Test success: verifyProductsPageTest
+17:35:16.549 INFO  AUTOMATION - Enter the username
+17:35:16.587 INFO  AUTOMATION - Enter the email address
+17:35:16.623 INFO  AUTOMATION - Click on Sign up button
+17:35:18.224 INFO  AUTOMATION - Test start: signUpTest
+17:35:18.254 INFO  AUTOMATION - Select gender
+17:35:18.351 INFO  AUTOMATION - Verify username & email pre-registered values
+17:35:18.378 INFO  AUTOMATION - Enter password
+17:35:18.421 INFO  AUTOMATION - Select date of birth
+17:35:18.600 INFO  AUTOMATION - Checkmark the checkboxes
+17:35:18.674 INFO  AUTOMATION - Enter first name, last name, company, main address & secondary address
+17:35:18.913 INFO  AUTOMATION - Select country
+17:35:18.952 INFO  AUTOMATION - Enter state, city, zipcode & phone number
+17:35:19.131 INFO  AUTOMATION - Click on create account button
+17:35:22.018 INFO  AUTOMATION - Test success: signUpTest
+17:35:22.148 INFO  AUTOMATION - Suite finishing: Surefire suite

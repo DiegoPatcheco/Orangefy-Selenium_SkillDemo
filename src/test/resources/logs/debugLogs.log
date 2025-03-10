@@ -1,16 +1,125 @@
-01:04:18.613 INFO  AUTOMATION - Suite starting: Default Suite
-01:04:18.623 DEBUG AUTOMATION - Deleting previous evidence
-01:04:18.707 DEBUG AUTOMATION - Setting Chrome as default driver
-01:04:18.709 DEBUG AUTOMATION - Inicializando el driver: CHROME
-01:04:19.842 DEBUG AUTOMATION - Maximizando la pantalla
-01:04:19.867 DEBUG AUTOMATION - Borrando las cookies
-01:04:19.873 DEBUG AUTOMATION - Asignando driver al webdriver provider
-01:04:19.955 DEBUG AUTOMATION - Setting login cookie
-01:04:25.358 INFO  AUTOMATION - Test start: verifyContactPageTest
-01:05:35.631 DEBUG AUTOMATION - Allure: Taking screenshot
-01:05:35.684 INFO  AUTOMATION - Test fail: verifyContactPageTest
-01:05:35.684 DEBUG AUTOMATION - Taking screenshot
-01:05:35.689 DEBUG AUTOMATION - Allure: Taking screenshot
-01:05:35.692 INFO  AUTOMATION - Test fail: verifyContactPageTest
-01:05:35.692 DEBUG AUTOMATION - Taking screenshot
-01:05:35.698 INFO  AUTOMATION - Suite finishing: Default Suite
+17:33:56.135 INFO  AUTOMATION - Suite starting: Surefire suite
+17:33:56.141 DEBUG AUTOMATION - Deleting previous evidence
+17:33:56.214 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:33:57.928 DEBUG AUTOMATION - Maximizando la pantalla
+17:33:57.951 DEBUG AUTOMATION - Borrando las cookies
+17:33:57.960 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:02.175 INFO  AUTOMATION - Enter the user email
+17:34:02.224 INFO  AUTOMATION - Enter the user password
+17:34:02.262 INFO  AUTOMATION - Click on login button
+17:34:05.385 INFO  AUTOMATION - Test start: submitContactMessageTest
+17:34:05.734 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:05.738 INFO  AUTOMATION - Test success: submitContactMessageTest
+17:34:05.739 DEBUG AUTOMATION - Matando el driver
+17:34:05.854 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:06.578 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:06.598 DEBUG AUTOMATION - Borrando las cookies
+17:34:06.603 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:09.878 INFO  AUTOMATION - Enter the user email
+17:34:09.917 INFO  AUTOMATION - Enter the user password
+17:34:09.949 INFO  AUTOMATION - Click on login button
+17:34:12.386 INFO  AUTOMATION - Test start: verifyContactPageTest
+17:34:12.464 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:12.465 INFO  AUTOMATION - Test success: verifyContactPageTest
+17:34:12.466 DEBUG AUTOMATION - Matando el driver
+17:34:12.570 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:13.291 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:13.311 DEBUG AUTOMATION - Borrando las cookies
+17:34:13.315 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:17.306 INFO  AUTOMATION - Test start: loginValidCredentialsTest
+17:34:17.309 INFO  AUTOMATION - Enter the user email
+17:34:17.351 INFO  AUTOMATION - Enter the user password
+17:34:17.386 INFO  AUTOMATION - Click on login button
+17:34:18.603 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:18.604 INFO  AUTOMATION - Test success: loginValidCredentialsTest
+17:34:18.605 DEBUG AUTOMATION - Matando el driver
+17:34:18.705 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:19.416 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:19.436 DEBUG AUTOMATION - Borrando las cookies
+17:34:19.443 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:23.397 INFO  AUTOMATION - Test start: verifyLoginElementsTest
+17:34:23.422 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:23.423 INFO  AUTOMATION - Test success: verifyLoginElementsTest
+17:34:23.423 DEBUG AUTOMATION - Matando el driver
+17:34:23.522 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:24.241 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:24.261 DEBUG AUTOMATION - Borrando las cookies
+17:34:24.267 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:28.283 INFO  AUTOMATION - Enter the user email
+17:34:28.324 INFO  AUTOMATION - Enter the user password
+17:34:28.357 INFO  AUTOMATION - Click on login button
+17:34:33.219 INFO  AUTOMATION - Test start: submitItemReviewTest
+17:34:34.692 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:34.915 INFO  AUTOMATION - Test fail: submitItemReviewTest
+17:34:34.916 DEBUG AUTOMATION - Taking screenshot
+17:34:35.029 DEBUG AUTOMATION - Extracting page source from web page
+17:34:35.029 DEBUG AUTOMATION - Creating parent directories in case they don't exist
+17:34:35.047 DEBUG AUTOMATION - Matando el driver
+17:34:35.184 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:35.893 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:35.913 DEBUG AUTOMATION - Borrando las cookies
+17:34:35.917 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:39.955 INFO  AUTOMATION - Enter the user email
+17:34:39.996 INFO  AUTOMATION - Enter the user password
+17:34:40.030 INFO  AUTOMATION - Click on login button
+17:34:44.887 INFO  AUTOMATION - Test start: verifyItemDetailsPageTest
+17:34:45.045 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:45.045 INFO  AUTOMATION - Test success: verifyItemDetailsPageTest
+17:34:45.046 DEBUG AUTOMATION - Matando el driver
+17:34:45.147 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:45.807 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:45.827 DEBUG AUTOMATION - Borrando las cookies
+17:34:45.832 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:34:50.200 INFO  AUTOMATION - Enter the user email
+17:34:50.243 INFO  AUTOMATION - Enter the user password
+17:34:50.277 INFO  AUTOMATION - Click on login button
+17:34:51.338 INFO  AUTOMATION - Test start: addingProductsCartTest
+17:34:56.719 DEBUG AUTOMATION - Allure: Taking screenshot
+17:34:56.721 INFO  AUTOMATION - Test success: addingProductsCartTest
+17:34:56.721 DEBUG AUTOMATION - Matando el driver
+17:34:56.830 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:34:57.543 DEBUG AUTOMATION - Maximizando la pantalla
+17:34:57.563 DEBUG AUTOMATION - Borrando las cookies
+17:34:57.568 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:35:01.361 INFO  AUTOMATION - Enter the user email
+17:35:01.400 INFO  AUTOMATION - Enter the user password
+17:35:01.433 INFO  AUTOMATION - Click on login button
+17:35:02.887 INFO  AUTOMATION - Test start: verifyEmptyCartTest
+17:35:03.600 DEBUG AUTOMATION - Allure: Taking screenshot
+17:35:03.717 INFO  AUTOMATION - Test fail: verifyEmptyCartTest
+17:35:03.717 DEBUG AUTOMATION - Taking screenshot
+17:35:03.850 DEBUG AUTOMATION - Extracting page source from web page
+17:35:03.850 DEBUG AUTOMATION - Creating parent directories in case they don't exist
+17:35:03.850 DEBUG AUTOMATION - Matando el driver
+17:35:03.940 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:35:04.661 DEBUG AUTOMATION - Maximizando la pantalla
+17:35:04.681 DEBUG AUTOMATION - Borrando las cookies
+17:35:04.685 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:35:08.325 INFO  AUTOMATION - Enter the user email
+17:35:08.363 INFO  AUTOMATION - Enter the user password
+17:35:08.394 INFO  AUTOMATION - Click on login button
+17:35:10.382 INFO  AUTOMATION - Test start: verifyProductsPageTest
+17:35:11.850 DEBUG AUTOMATION - Allure: Taking screenshot
+17:35:11.851 INFO  AUTOMATION - Test success: verifyProductsPageTest
+17:35:11.851 DEBUG AUTOMATION - Matando el driver
+17:35:11.950 DEBUG AUTOMATION - Inicializando el driver: CHROME
+17:35:12.667 DEBUG AUTOMATION - Maximizando la pantalla
+17:35:12.686 DEBUG AUTOMATION - Borrando las cookies
+17:35:12.690 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:35:16.549 INFO  AUTOMATION - Enter the username
+17:35:16.587 INFO  AUTOMATION - Enter the email address
+17:35:16.623 INFO  AUTOMATION - Click on Sign up button
+17:35:18.224 INFO  AUTOMATION - Test start: signUpTest
+17:35:18.254 INFO  AUTOMATION - Select gender
+17:35:18.351 INFO  AUTOMATION - Verify username & email pre-registered values
+17:35:18.378 INFO  AUTOMATION - Enter password
+17:35:18.421 INFO  AUTOMATION - Select date of birth
+17:35:18.600 INFO  AUTOMATION - Checkmark the checkboxes
+17:35:18.674 INFO  AUTOMATION - Enter first name, last name, company, main address & secondary address
+17:35:18.913 INFO  AUTOMATION - Select country
+17:35:18.952 INFO  AUTOMATION - Enter state, city, zipcode & phone number
+17:35:19.131 INFO  AUTOMATION - Click on create account button
+17:35:22.017 DEBUG AUTOMATION - Allure: Taking screenshot
+17:35:22.018 INFO  AUTOMATION - Test success: signUpTest
+17:35:22.019 DEBUG AUTOMATION - Matando el driver
+17:35:22.148 INFO  AUTOMATION - Suite finishing: Surefire suite
