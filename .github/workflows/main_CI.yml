@@ -23,6 +23,7 @@ jobs:
 
       - name: Set up Maven
         run: |
+          set -e
           wget https://downloads.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
           tar xzvf apache-maven-3.8.6-bin.tar.gz
           sudo mv apache-maven-3.8.6 /opt/maven
@@ -37,19 +38,26 @@ jobs:
           restore-keys: maven-${{ runner.os }}
 
       - name: Run Tests
-        run: ./mvnw clean test -Dgroups="regression" -Dbrowser="chrome"
+        run: |
+          set -e
+          ./mvnw clean test -Dgroups="regression" -Dbrowser="chrome"
+          echo "Test execution finished with exit code $?"
 
       - name: Generate Allure Report
-        run: ./mvnw allure:report
+        run: |
+          set -e
+          ./mvnw allure:report
 
       - name: Upload Allure Report as Artifact
         uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
           name: allure-report
           path: target/site/allure-maven-plugin
 
       - name: Publish Test Results
         uses: actions/upload-artifact@v4
+        continue-on-error: true
         with:
           name: test-results
           path: target/surefire-reports
