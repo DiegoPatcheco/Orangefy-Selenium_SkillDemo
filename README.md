@@ -1,4 +1,4 @@
-# Orangefy-SkillDemo
+# Orangefy-Selenium_SkillDemo
 
 ## Overview
 Orangefy-SkillDemo is a project designed to showcase QA Automation expertise in Java, Selenium automation, TestNG, CI/CD integration, and test design patterns.
